@@ -1,0 +1,50 @@
+/mnt/c/Git-Test
+
+----------------git ignore :---------------------
+1- $ git add .
+2- $ git commit -m '1111111111111111111 optional'
+3- $ git rm -r --cached .
+4- $ git add .
+5- $ git commit -m '2222222222222222222 optional'
+
+----------------create Branch :------------------
+1- git branch 'branch name'
+2- git checkout 'branch name'
+ or
+1- git checkout -b 'branch name'
+
+----------------Delete branch :------------------
+git branch -d 'branch name'
+
+----------------Show all branch :----------------
+git branch -a
+
+---------------- linux command ------------------
+create file : touch 'file name.ext'
+dir list    : ls -lr or ls
+
+---------------- Commit : -----------------------
+git commit -m ''commitments....''
+
+------------------ Statuse :---------------------
+git status
+
+------------------ Showing log of commits : -----
+git log
+git log --oneline (short list)
+
+------------------ Reset commit : ---------------
+git reset 'commit address'
+
+------------------ Add to staging : -------------
+git add 'file name'
+git add . (for all files)
+
+------------------ Connect to remote repo -------
+1- git init 
+2- git add 'something to commit'
+3- git commit -m 'first commit'
+4- git remote add origin 'remote repo SSH or HTTPS'
+5- git push -u origin master
+
+
