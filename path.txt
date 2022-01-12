@@ -20,6 +20,9 @@ https://github.com/settings/tokens
 ----------------Delete branch :------------------
 git branch -d 'branch name'
 
+Deleting remote branch :
+git push origin --delete 'branch name'
+
 ----------------Show all branch :----------------
 git branch -a
 
