@@ -1,4 +1,6 @@
 /mnt/c/Git-Test
+
+my git hub user  : behrooz-tag
 my git hub token : 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
 ----------------git ignore :---------------------
 1- $ git add .
