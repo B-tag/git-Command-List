@@ -1,5 +1,5 @@
 /mnt/c/Git-Test
-
+my git hub token : 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
 ----------------git ignore :---------------------
 1- $ git add .
 2- $ git commit -m '1111111111111111111 optional'
