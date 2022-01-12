@@ -23,6 +23,12 @@ git branch -d 'branch name'
 ----------------Show all branch :----------------
 git branch -a
 
+---------------- Merge branch
+1- go to the branch that you need to merge to
+2- git merge 'branch name'
+or
+1- git merge 'destination branch' 'source branch' 
+
 ---------------- linux command ------------------
 create file : touch 'file name.ext'
 dir list    : ls -lr or ls
