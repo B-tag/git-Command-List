@@ -1,0 +1,61 @@
+/mnt/c/Git-Test
+
+my git hub user  : behrooz-tag
+https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token
+https://github.com/settings/tokens
+----------------git ignore :---------------------
+1- $ git add .
+2- $ git commit -m '1111111111111111111 optional'
+3- $ git rm -r --cached .
+4- $ git add .
+5- $ git commit -m '2222222222222222222 optional'
+
+----------------create Branch :------------------
+1- git branch 'branch name'
+2- git checkout 'branch name'
+ or
+1- git checkout -b 'branch name'
+
+----------------Delete branch :------------------
+git branch -d 'branch name'
+
+Deleting remote branch :
+git push origin --delete 'branch name'
+
+----------------Show all branch :----------------
+git branch -a
+
+---------------- Merge branch -------------------
+1- go to the branch that you need to merge to
+2- git merge 'branch name'
+or
+1- git merge 'destination branch' 'source branch' 
+
+---------------- linux command ------------------
+1- create file : touch 'file name.ext'
+2- dir list    : ls -lr or ls
+
+---------------- Commit: -----------------------
+git commit -m ''commitments....''
+
+------------------ Status :---------------------
+git status
+
+------------------ Showing log of commits : -----
+1- git log
+2- git log --oneline (short list)
+
+------------------ Reset commit : ---------------
+git reset 'commit address'
+
+------------------ Add to staging : -------------
+1- git add 'file name'
+2- git add . (for all files)
+
+------------------ Connect to remote repo -------
+1- git init 
+2- git add 'something to commit'
+3- git commit -m 'first commit'
+4- git remote add origin 'remote repo SSH or HTTPS'
+5- git push -u origin master
+
