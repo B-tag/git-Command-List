@@ -17,6 +17,9 @@ https://github.com/settings/tokens
  or
 1- git checkout -b 'branch name'
 
+----------------Change Branch :------------------
+git checkout #branch_name
+
 ----------------Delete branch :------------------
 git branch -d 'branch name'
 
@@ -59,5 +62,8 @@ git add . (for all files)
 3- git commit -m 'first commit'
 4- git remote add origin 'remote repo SSH or HTTPS'
 5- git push -u origin master
+
+------------------ Change the remote head -------
+git remote set-head origin #remote_branch_name
 
 
