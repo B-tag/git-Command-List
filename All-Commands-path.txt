@@ -66,4 +66,13 @@ git add . (for all files)
 ------------------ Change the remote head -------
 git remote set-head origin #remote_branch_name
 
+------------------ Create remote branch -------
+once you cereate you local branch and commit you code you can 
+push the branch wiht the name of the branch you need to create in remote REPO
+
+1- git push origin #name_of_the_Branch (Example: DEV)
+
+------------------ Delete remote branch -------
+To delete a branch in Remote repo (when we finished the merege and we wanrt to delete the brach)
+1- git push origin --delete #name_of_the_Branch (Example: DEV)
 
